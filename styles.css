@@ -1,0 +1,13 @@
+body {
+    background-color: white;
+}
+
+.post {
+    width: 400px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
