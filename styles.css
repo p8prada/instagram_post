@@ -11,3 +11,8 @@ body {
     display: flex;
     justify-content: space-between;
 }
+
+.left_header {
+    display: flex;
+    
+}
