@@ -20,30 +20,33 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
+    padding: 5px;
 }
 
 .profile_img{
     display: flex;
     justify-content: center;
-    width: 50px;
-    height: 50px;
+    width: 30px;
+    height: 30px;
+    padding: 5px;
 }
+
 .left_header {
-    display: flex;
-    
+    display: flex;    
 }
+
 h1{
     font-weight: bold;
     font-family: 'Roboto', sans-serif;
-    font-size: 18px;
+    font-size: 16px;
     margin-block-start: 0em;
     margin-block-end: 0em;
 }
+
 h2{
     font-weight: 100;
     font-family: 'Roboto', sans-serif;
-    font-size: 16px;
+    font-size: 14px;
     margin-block-start: 0em;
     margin-block-end: 0em;
 }
@@ -55,6 +58,35 @@ h2{
 }
 
 .icon{
-    height: 40px;
-    width: 40px;
+    font-size: 30px;
+    padding: 10px;
+}
+
+.pic{
+    display: flex;
+    height: 300px;
+    width: 400px;
+    object-fit: cover;
+}
+
+.actions{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    padding-right: 10px;
+}
+
+.likes {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding: 10px;
+}
+
+.comment {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    padding-top: 50px;
+    padding: 10px;
 }
